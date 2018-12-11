@@ -32,7 +32,6 @@ from . import settings as mce_settings
 
 __all__ = ['TinyMCE', 'render_tinymce_init_js']
 
-logging.basicConfig(format='[%(asctime)s] %(module)s: %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(20)
 
